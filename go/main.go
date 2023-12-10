@@ -62,6 +62,7 @@ func evaluatePostfix(expr string) int {
 }
 
 func arithmetic(v1 int, v2 int, operator rune) (int, error) {
+	fmt.Printf("%d %s %d\n", v1, string(operator), v2)
 	switch operator {
 	case '+':
 		return v1 + v2, nil

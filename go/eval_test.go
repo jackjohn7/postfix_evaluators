@@ -16,8 +16,8 @@ func TestEvaluation(t *testing.T) {
 			Input:          "3 5 8 + *",
 		},
 		{
-			ExpectedResult: 5,
-			Input:          "5 3 + 4 / 4 1 / 12 + * 14 +",
+			ExpectedResult: 28,
+			Input:          "5 3 + 4 / 4 1 / 8 + * 4 +",
 		},
 	}
 
