@@ -26,3 +26,7 @@ func (t *Text) ReadNext() *string {
 	t.position += 1
 	return &res
 }
+
+func (t *Text) GetSymCount() int {
+	return len(t.split)
+}
